@@ -17,6 +17,7 @@ def less_than_safe?(speed)
 end
 
 puts less_than_safe?(55)
+puts less_than_safe?(30)
 	
 
 # Ternary syntax (mirrors if...else...end):
