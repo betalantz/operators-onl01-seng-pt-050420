@@ -13,7 +13,7 @@ def not_safe?(speed)
 end
 
 def less_than_safe?(speed)
-  speed > 60 || speed < 40 ? "Watch out!" : "Great driver!"
+  speed > 60 || speed < 40
 end
 
 puts less_than_safe?(55)
