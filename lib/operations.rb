@@ -9,8 +9,9 @@ end
 
 
 def not_safe?(speed)
-	
+	speed > 60 ? true : false
 end
 	
 
-
+# Ternary syntax (mirrors if...else...end):
+# condition ? true : false
