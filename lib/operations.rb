@@ -16,7 +16,7 @@ def less_than_safe?(speed)
   speed > 60 || speed < 40 ? "What a good driver!" : "Watch out!"
 end
 
-puts less_than_safe(55)
+puts less_than_safe?(55)
 	
 
 # Ternary syntax (mirrors if...else...end):
